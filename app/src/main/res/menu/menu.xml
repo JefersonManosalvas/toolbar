@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+<item
+    android:title="OPC 1"
+    android:icon="@drawable/baseline_arrow_back_24"
+    android:id="@+id/opc1"
+    app:showAsAction="never"
 
+
+    />
 
     <item
-        android:id="@+id/action_option1"
-        android:title="Option 1"
-        app:showAsAction="ifRoom" />
+        android:title="OPC 2"
+        android:icon="@drawable/baseline_arrow_back_24"
+        android:id="@+id/opc2"
+        app:showAsAction="never"
 
+
+        />
 
     <item
-        android:id="@+id/action_option2"
-        android:title="Option 2"
-        app:showAsAction="never" />
+        android:id="@+id/opc3"
+        android:title="OPC 3"
+        android:icon="@drawable/baseline_menu_24"
+        app:showAsAction="never"
 
+
+        />
 
 
 </menu>
